@@ -13,14 +13,15 @@
 # limitations under the License.
 
 # All the other proprietary blobs necessary for a working Captivatemtd
+
 PRODUCT_COPY_FILES += \
-	vendor/samsung/captivatemtd/proprietary/gps.conf:system/etc/gps.conf \
-	vendor/samsung/captivatemtd/proprietary/gpsd:system/vendor/bin/gpsd \
-	vendor/samsung/captivatemtd/proprietary/gps.xml:system/vendor/etc/gps.xml \
-	vendor/samsung/captivatemtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
-	vendor/samsung/captivatemtd/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
-	vendor/samsung/captivatemtd/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
-	vendor/samsung/captivatemtd/proprietary/modem.bin:modem.bin \
+	vendor/samsung/captivateubi/proprietary/gps.conf:system/etc/gps.conf \
+	vendor/samsung/captivateubi/proprietary/gpsd:system/vendor/bin/gpsd \
+	vendor/samsung/captivateubi/proprietary/gps.xml:system/vendor/etc/gps.xml \
+	vendor/samsung/captivateubi/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
+	vendor/samsung/captivateubi/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
+	vendor/samsung/captivateubi/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
+	vendor/samsung/captivateubi/proprietary/modem.bin:modem.bin \
 	vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
 	vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
 	vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd

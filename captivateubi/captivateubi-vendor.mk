@@ -15,5 +15,5 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/aries-common/overlay
 
-$(call inherit-product, vendor/samsung/galaxysbmtd/galaxysbmtd-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/captivateubi/captivateubi-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/aries-common/aries-vendor-blobs.mk)

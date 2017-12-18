@@ -12,13 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# All the blobs necessary for vibrantmtd devices
+# All the blobs necessary for vibrantubi devices
 PRODUCT_COPY_FILES += \
-    vendor/samsung/vibrantmtd/proprietary/gps.conf:system/etc/gps.conf \
-    vendor/samsung/vibrantmtd/proprietary/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/vibrantmtd/proprietary/libclientgps.so:system/lib/libclientgps.so \
-    vendor/samsung/vibrantmtd/proprietary/libsamsung_hwlegacy.so:system/vendor/lib/libsamsung_hwlegacy.so \
-    vendor/samsung/vibrantmtd/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/vibrantubi/proprietary/gps.conf:system/etc/gps.conf \
+    vendor/samsung/vibrantubi/proprietary/gpsd:system/vendor/bin/gpsd \
+    vendor/samsung/vibrantubi/proprietary/libclientgps.so:system/lib/libclientgps.so \
+    vendor/samsung/vibrantubi/proprietary/libsamsung_hwlegacy.so:system/vendor/lib/libsamsung_hwlegacy.so \
+    vendor/samsung/vibrantubi/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
     vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
     vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd

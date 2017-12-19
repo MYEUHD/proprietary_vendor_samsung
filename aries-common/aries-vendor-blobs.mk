@@ -26,4 +26,4 @@ PRODUCT_PACKAGES += \
     libsrv_um \
     libusc \
     bcm4329 \
-    nvram_net.txt
+    nvram_net

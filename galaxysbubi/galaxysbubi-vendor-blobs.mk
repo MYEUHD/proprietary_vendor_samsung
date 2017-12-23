@@ -14,13 +14,13 @@
 
 # All the blobs necessary for galaxys devices
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysubi/proprietary/modem.bin:modem.bin \
-    vendor/samsung/galaxysubi/proprietary/gps.conf:system/etc/gps.conf \
-    vendor/samsung/galaxysubi/proprietary/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/galaxysubi/proprietary/gps.xml:system/vendor/etc/gps.xml \
-    vendor/samsung/galaxysubi/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
-    vendor/samsung/galaxysubi/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
-    vendor/samsung/galaxysubi/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/galaxysbubi/proprietary/modem.bin:system/vendor/modem.bin \
+    vendor/samsung/galaxysbubi/proprietary/gps.conf:system/etc/gps.conf \
+    vendor/samsung/galaxysbubi/proprietary/gpsd:system/vendor/bin/gpsd \
+    vendor/samsung/galaxysbubi/proprietary/gps.xml:system/vendor/etc/gps.xml \
+    vendor/samsung/galaxysbubi/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
+    vendor/samsung/galaxysbubi/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
+    vendor/samsung/galaxysbubi/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
     vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
     vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd

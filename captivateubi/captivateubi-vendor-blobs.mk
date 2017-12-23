@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/captivateubi/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
 	vendor/samsung/captivateubi/proprietary/Certification.cer:system/vendor/bin/Certification.cer \
 	vendor/samsung/captivateubi/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
-	vendor/samsung/captivateubi/proprietary/modem.bin:modem.bin \
+	vendor/samsung/captivateubi/proprietary/modem.bin:system/vendor/modem.bin \
 	vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
 	vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
 	vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd
